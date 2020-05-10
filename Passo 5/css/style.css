@@ -1,0 +1,50 @@
+table { /*edita a tabela*/
+	width: 100%; /*atribui um tamanho à largura*/
+	height: 100%; /*atribui um tamanho à altura*/
+	border-spacing: 40px; /*atribui uma distância entre as bordas de cada célula*/
+	text-align: center; /*coloca o texto centrado*/
+	font: bold 15px/35px Arial; /*atribui um tamanho e uma fonte à letra, coloca-a em bold*/
+	empty-cells: hide; /* Esconde as células em branco*/
+}
+
+table, td { /*edita a tabela e todas as suas células*/
+	border: 5px solid #000; /*Atribui a grossura e a cor da borda de cada célula e da tabela*/
+}
+
+td { /*edita todas as células*/
+	padding: 20px; /*Determina a distância entre o texto e a borda de cada célula*/
+	width:100px; /*atribui um tamanho à largura*/
+	height: 125px; /*atribui um tamanho à altura*/
+	
+}
+
+img { /*edita todas as imagens*/
+  width: 75px; /*atribui um tamanho à largura*/
+  height: 100px; /*atribui um tamanho à altura*/
+}
+
+
+td:nth-child(1) { /*edita todas as células da coluna 1*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(2) { /*edita todas as células da coluna 2*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(3) { /*edita todas as células da coluna 3*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(4) { /*edita todas as células da coluna 4*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(6) { /*edita todas as células da coluna 6*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(7) { /*edita todas as células da coluna 7*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(8) { /*edita todas as células da coluna 8*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
+td:nth-child(9) { /*edita todas as células da coluna 9*/
+	background-color: #80ced6; /*Atribui uma cor ao fundo das cêlulas*/
+}
